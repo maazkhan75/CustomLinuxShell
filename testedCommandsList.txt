@@ -7,7 +7,7 @@ NOTE: This custom shell is capable of executing all common commands, you can che
 				
 				
 
-					      		                        ~(COMMANDS TESTED)~
+					      	  ~(COMMANDS TESTED)~
 pwd
 ls
 ls -l
