@@ -1,0 +1,56 @@
+							
+------------------------------------------------------------------------------------------------------------------------------------------
+NOTE: This custom shell is capable of executing all common commands, you can check by inputing specific command when prompted 
+      to input  command. If shell doesn't support that command then it will shows a message  'SHELL DOESN'T RECOGNIZED THAT COMMAND!'
+      If you donot understand any command written below you can copy the command and search it on the web or can ask from gpt
+------------------------------------------------------------------------------------------------------------------------------------------
+				
+				
+
+					      		                        ~(COMMANDS TESTED)~
+pwd
+ls
+ls -l
+mkdir folderName
+exit
+&command  like &pwd
+sort < input.txt > output.txt
+cd directoryPath
+ls non_existent_file 2> error.txt
+man ls > ls.dat
+cat input.txt
+cat input.txt output.txt > combined.txt
+tr -s '[:space:]' '\n' < sortingFile.txt      
+sort testing.txt | grep maaz | cat > a.txt
+sort testing.txt | grep maaz > a.txt | wc -l
+sort ls.dat | tee a.txt
+touch newFile.txt
+nano newFile.txt
+echo "coding is fun" > fifo1
+rm fifo1
+echo "code"
+sort testing.txt | tee a.txt
+sort testing.txt | tee a.txt | wc -l
+sort a.txt > fifo1
+ls | tee listing.txt | grep .cpp
+
+mkfifo fifo1
+cat fifo1&   //it is waiting to read from fifo1 in background
+echo "code" > fifo1   //writes to fifo1 and imedialely the background process reads and displays "code" as output
+
+
+sort fifo1 > a.txt&
+echo "hello" > fifo1
+
+
+
+(USEFUL INFO):
+When you write data to a FIFO, it will block until another process reads from it. If there's no process reading from the FIFO, the writer will block indefinitely.
+Ensure that there is another process reading from fifo1. If you have a shell script or another command waiting to read from fifo1, make sure it's running and actively reading. Once a process starts reading from the FIFO, the echo command should unblock and return.
+
+
+
+
+
+
+
