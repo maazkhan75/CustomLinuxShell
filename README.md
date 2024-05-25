@@ -1,4 +1,4 @@
-# Custom Shell in C++
+# Custom UNIX/LINUX Shell in C++
 
 This is a simple custom shell implemented in C++ that supports basic Unix commands, input/output redirection, piping, and command history.
 
