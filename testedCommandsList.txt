@@ -21,8 +21,8 @@ man ls > ls.dat
 cat input.txt
 cat input.txt output.txt > combined.txt
 tr -s '[:space:]' '\n' < sortingFile.txt      
-sort testing.txt | grep maaz | cat > a.txt
-sort testing.txt | grep maaz > a.txt | wc -l
+sort testing.txt | grep anyword | cat > a.txt
+sort testing.txt | grep anyword > a.txt | wc -l
 sort ls.dat | tee a.txt
 touch newFile.txt
 nano newFile.txt
