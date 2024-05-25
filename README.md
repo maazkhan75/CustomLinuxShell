@@ -57,7 +57,7 @@ Redirect standard error using `2>`. Example:
 
 Use `|` to pipe the output of one command to another. Example:
 ```sh
-( Enter Command ) : sort testing.txt | grep maaz | cat > a.txt
+( Enter Command ) : sort testing.txt | grep anyword | cat > a.txt
 ```
 
 ### Background Execution
@@ -101,8 +101,8 @@ Write to and read from a named pipe:
 - `cat input.txt`
 - `cat input.txt output.txt > combined.txt`
 - `tr -s '[:space:]' '\n' < sortingFile.txt`
-- `sort testing.txt | grep maaz | cat > a.txt`
-- `sort testing.txt | grep maaz > a.txt | wc -l`
+- `sort testing.txt | grep anyword | cat > a.txt`
+- `sort testing.txt | grep anyword > a.txt | wc -l`
 - `sort ls.dat | tee a.txt`
 - `touch newFile.txt`
 - `nano newFile.txt`
