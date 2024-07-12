@@ -1,47 +1,47 @@
-# Custom UNIX/LINUX Shell
+# 🚀 Custom UNIX/LINUX Shell
 
 This is a simple custom shell implemented in C++ that supports basic Unix commands, input/output redirection, piping, and command history.
 
-## Features
+## 🌟 Features
 
-- Execute common Unix commands like `ls`, `pwd`, `mkdir`, etc.
-- Input and output redirection using `<`, `>`, and `2>`.
-- Piping between commands using `|`.
-- Background command execution using `&`.
-- Command history and recall using `!!` and `!n`.
-- Creation and usage of named pipes (FIFOs) using `mkfifo`.
+- 📂 Execute common Unix commands like `ls`, `pwd`, `mkdir`, etc.
+- 🔄 Input and output redirection using `<`, `>`, and `2>`.
+- 🚰 Piping between commands using `|`.
+- 🎛️ Background command execution using `&`.
+- 📜 Command history and recall using `!!` and `!n`.
+- 🚪 Creation and usage of named pipes (FIFOs) using `mkfifo`.
 
-## Getting Started
+## 🏁 Getting Started
 
-### Prerequisites
+### 📋 Prerequisites
 
-- A C++ compiler (g++ recommended)
-- Unix-like operating system (Linux, macOS)
+- 🛠️ A C++ compiler (g++ recommended)
+- 🐧🍏 Unix-like operating system (Linux, macOS)
 
-### Compilation
+### 🖥️ Compilation
 
 To compile the shell, use the following command:
 ```bash
 g++ -o custom_shell custom_shell.cpp
 ```
 
-### Running the Shell
+### ⏩ Running the Shell
 
 After compiling, you can run the shell with:
 ```bash
 ./custom_shell
 ```
 
-## Usage
+## 💡 Usage
 
-### Basic Commands
+### 📝 Basic Commands
 
 You can run basic Unix commands like `pwd`, `ls`, `mkdir`, etc. Example:
 ```sh
 ( Enter Command ) : pwd
 ```
 
-### Input/Output Redirection
+### ↪️ ↩️ Input/Output Redirection
 
 Redirect input from a file using `<`, and output to a file using `>`. Example:
 ```sh
@@ -53,27 +53,27 @@ Redirect standard error using `2>`. Example:
 ( Enter Command ) : ls non_existent_file 2> error.txt
 ```
 
-### Piping
+### 🔗 Piping
 
 Use `|` to pipe the output of one command to another. Example:
 ```sh
 ( Enter Command ) : sort testing.txt | grep anyword | cat > a.txt
 ```
 
-### Background Execution
+### 🔄 Background Execution
 
 Run a command in the background using `&`. Example:
 ```sh
 ( Enter Command ) : sort testing.txt > sorted.txt &
 ```
 
-### Command History
+### 📜 Command History
 
 - View command history with `history`.
 - Recall the most recent command with `!!`.
 - Recall a specific command with `!n` (where `n` is the command number).
 
-### Named Pipes (FIFOs)
+### 🚪 Named Pipes (FIFOs)
 
 Create a named pipe using `mkfifo`. Example:
 ```sh
@@ -86,7 +86,7 @@ Write to and read from a named pipe:
 ( Enter Command ) : echo "hello" > fifo1
 ```
 
-## Example Commands
+## 💻 Example Commands
 
 - `pwd`
 - `ls`
@@ -114,14 +114,14 @@ Write to and read from a named pipe:
 - `sort a.txt > fifo1`
 - `ls | tee listing.txt | grep .cpp`
 
-### Note on FIFOs
+### 📝 Note on FIFOs
 
 When writing data to a FIFO, the write will block until another process reads from it. Ensure that there is a process reading from the FIFO to avoid indefinite blocking.
 
-## Contributing
+## 🌍 Contributing
 
-Contributions are welcome! Feel free to open issues or submit pull requests.
+Contributions are welcome! Feel free to open issues or submit pull requests. 🤝
 
-## License
+## 📄 License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
