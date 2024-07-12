@@ -7,7 +7,7 @@ This is a simple custom shell implemented in C++ that supports basic Unix comman
 - 📂 Execute common Unix commands like `ls`, `pwd`, `mkdir`, etc.
 - 🔄 Input and output redirection using `<`, `>`, and `2>`.
 - 🚰 Piping between commands using `|`.
-- 🎛️ Background command execution using `&`.
+- ⏳  Background command execution using `&`.
 - 📜 Command history and recall using `!!` and `!n`.
 - 🚪 Creation and usage of named pipes (FIFOs) using `mkfifo`.
 
@@ -25,7 +25,7 @@ To compile the shell, use the following command:
 g++ -o custom_shell custom_shell.cpp
 ```
 
-### ⏩ Running the Shell
+### ▶️ Running the Shell
 
 After compiling, you can run the shell with:
 ```bash
