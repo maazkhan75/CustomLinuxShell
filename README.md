@@ -86,7 +86,7 @@ Write to and read from a named pipe:
 ( Enter Command ) : echo "hello" > fifo1
 ```
 
-## 💻 Example Commands
+### 💻 Example Commands
 
 - `pwd`
 - `ls`
@@ -118,10 +118,15 @@ Write to and read from a named pipe:
 
 When writing data to a FIFO, the write will block until another process reads from it. Ensure that there is a process reading from the FIFO to avoid indefinite blocking.
 
-## 🌍 Contributing
+### 🌍 Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests. 🤝
 
-## 📄 License
+### 📄 License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+### 📥 Clone the Repository
+```bash
+git clone https://github.com/maazkhan75/ThreadedPong.git
+```
