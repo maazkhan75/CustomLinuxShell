@@ -128,5 +128,5 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## 📥 Clone the Repository
 ```bash
-git clone https://github.com/maazkhan75/ThreadedPong.git
+git clone https://github.com/maazkhan75/CustomLinuxShell.git
 ```
