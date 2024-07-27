@@ -130,3 +130,10 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ```bash
 git clone https://github.com/maazkhan75/CustomLinuxShell.git
 ```
+
+## 📸 Screenshots
+
+![](screenShots/1.png)
+![](screenShots/2.png)
+![](screenShots/3.png)
+
